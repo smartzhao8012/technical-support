@@ -17,7 +17,7 @@ npm install webpack-cli@2.0.12 -S
     ```
     # 错误1 4.X 中新增了 mode 为必选项
     The 'mode' option has not been set, webpack will fallback to 'production' for this value.
-    # 解决方法：在项目根目录下创建 **webpack.config.js** 文件，添加以下内容
+    # 解决方法：在项目根目录下创建 webpack.config.js 文件，添加以下内容
     module.exports = {
         mode: 'development'
     }
@@ -25,7 +25,8 @@ npm install webpack-cli@2.0.12 -S
     ```
     # 错误2 没有发现打包入口文件
     ERROR in main Module not found: Error: Can't resolve './src'
-    # 解决方法：在 **src** 下创建 **index.js**
+    # 解决方法：在 src 下创建 index.js
     ```
-   
+    运行成功会在 **dist** 目录下生成 **main.js** 打包文件
+## 2
     
